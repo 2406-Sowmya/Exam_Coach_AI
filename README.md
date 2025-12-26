@@ -1,162 +1,104 @@
-Exam Coach AI – Personalized Learning & Exam Preparation System
-Overview
+# 🎓 Exam Coach AI – Personalized Learning & Exam Preparation System
 
-Exam Coach AI is a personalized learning and exam preparation web application designed as a student-focused academic project.
+---
+
+## 📌 Overview
+
+**Exam Coach AI** is a personalized learning and exam preparation web application designed as a student-focused academic project.  
 The system helps students study smarter by organizing syllabus content, practicing exam-style questions, tracking performance, and receiving AI-powered guidance.
 
-The application focuses on exam-oriented learning, clarity, and adaptive revision using Google Gemini AI.
+The application focuses on **exam-oriented learning**, **clarity**, and **adaptive revision** using **Google Gemini AI**.
 
-Project Objectives
+---
 
-The primary objectives of the Exam Coach AI – Personalized Learning & Exam Preparation System are:
+## 🎯 Project Objectives
 
-To provide a structured and exam-oriented learning platform for students
+The primary objectives of the **Exam Coach AI – Personalized Learning & Exam Preparation System** are:
 
-To help students manage syllabus, subjects, and topics efficiently
+- To provide a structured and exam-oriented learning platform for students  
+- To help students manage syllabus, subjects, and topics efficiently  
+- To deliver clear and simplified AI-based explanations for better understanding  
+- To allow students to practice exam-style questions and evaluate performance  
+- To track student progress and identify weak and strong areas automatically  
+- To generate personalized revision plans based on individual performance  
+- To offer AI-driven academic guidance and motivation through an exam coach chatbot  
+- To reduce dependency on human tutors using intelligent AI assistance  
 
-To deliver clear and simplified AI-based explanations for better understanding
+---
 
-To allow students to practice exam-style questions and evaluate performance
+## ✨ Features
 
-To track progress and automatically identify weak and strong areas
+### 1️⃣ Syllabus & Topic Management
+- Add and organize subjects and topics  
+- Track topic-wise learning progress  
+- Maintain a structured syllabus flow for exam preparation  
 
-To generate personalized revision plans based on student performance
+### 2️⃣ AI Tutor (Gemini-Powered)
+- Simple, exam-focused explanations  
+- Beginner-friendly responses  
+- Optimized for quick revision and clarity  
+- Powered by Google Gemini API  
 
-To offer AI-driven academic guidance and motivation through an exam coach chatbot
+### 3️⃣ Practice Module
+- Topic-wise practice questions  
+- AI-generated multiple-choice questions  
+- Automatic scoring and evaluation  
 
-To reduce dependency on human tutors using intelligent AI assistance
+### 4️⃣ Progress Tracking
+- Stores quiz attempts and scores  
+- Automatically identifies weak and strong topics  
+- Performance-based learning insights  
 
-Features
-1. Syllabus & Topic Management
+### 5️⃣ Personalized Revision Planner
+- AI-generated **7-day revision plan**  
+- Based on actual student progress and performance  
+- Prioritizes weak and unattempted topics  
 
-Add and organize subjects and topics
+### 6️⃣ AI Exam Coach Chatbot
+- Interactive chatbot for exam guidance  
+- Helps students with:
+  - What to revise today  
+  - How to improve scores  
+  - Which topics need more focus  
+- Combines student progress data with AI responses  
 
-Track topic-wise learning progress
+---
 
-Structured syllabus flow for exam preparation
+## 🛠️ Tech Stack
 
-2. AI Tutor (Gemini-Powered)
+- **Frontend Framework:** React (TypeScript)  
+- **Build Tool:** Vite  
+- **Styling:** Tailwind CSS  
+- **AI Engine:** Google Gemini API (`@google/genai`)  
+- **State Management:** Browser LocalStorage (Mock Database)  
+- **Charts & Analytics:** Recharts  
+- **Icons:** Lucide React  
 
-Simple and exam-focused explanations
-
-Beginner-friendly responses
-
-Optimized for quick revision and clarity
-
-Powered by Google Gemini API
-
-3. Practice Module
-
-Topic-wise practice questions
-
-AI-generated MCQs
-
-Automatic scoring and evaluation
-
-4. Progress Tracking
-
-Stores quiz attempts and scores
-
-Identifies weak and strong topics automatically
-
-Performance-based learning insights
-
-5. Personalized Revision Planner
-
-AI-generated 7-day revision plan
-
-Based on actual student progress and performance
-
-Prioritizes weak and unattempted topics
-
-6. AI Exam Coach Chatbot
-
-Interactive AI chatbot for exam guidance
-
-Answers questions such as:
-
-What should I revise today?
-
-How can I improve my score?
-
-Which topics need more focus?
-
-Combines student progress data with AI responses
-
-Tech Stack
-
-Frontend Framework: React (TypeScript)
-
-Build Tool: Vite
-
-Styling: Tailwind CSS
-
-AI Engine: Google Gemini API (@google/genai)
-
-State Management: Browser LocalStorage (Mock Database)
-
-Charts & Analytics: Recharts
-
-Icons: Lucide React
+## How to Run the Project Locally
+```bash
+ 
+1️⃣ Clone the Repository
+git clone https://github.com/2406-Sowmya/Exam_Coach_AI.git
+cd Exam_Coach_AI
 
 
-
-How to Run the Project Locally
-
-Clone the repository:
-
-git clone https://github.com/2406-Sowmya/Exam-Coach-AI.git
-cd Exam-Coach-AI
-
-
-Install dependencies (Node.js v18 or above):
-
+2️⃣ Install Dependencies
 npm install
 
-
-Set up environment variables:
-Create a .env.local file in the root directory and add:
-
+3️⃣ Set Up Environment Variables
 VITE_API_KEY=your_google_gemini_api_key_here
 
-
-Start the development server:
-
+4️⃣ Start the Development Server
 npm run dev
 
-
-Open the application in your browser:
-
+5️⃣ Open in Browser
 http://localhost:3000
 
-Deployment
+```bash
+
+🚀 Deployment
 
 The project is deployed using Vercel.
 
 🔗 Live Application:
-https://exam-coach-ai-two.vercel.app/
-
-Multi-User Behavior
-
-Multiple users can access the application using the deployed link
-
-Each user’s data is stored in their own browser
-
-No data sharing between users
-
-No backend or centralized database
-
-Limitations
-
-Data is stored locally in the browser
-
-No cross-device data synchronization
-
-Clearing browser data removes stored progress
-
-Frontend-only project (no backend server)
-
-Conclusion
-
-Exam Coach AI is an exam-focused, AI-powered learning assistant that helps students plan, practice, and improve their academic performance.
-The project demonstrates effective use of AI in education while maintaining simplicity and clarity suitable for academic evaluation.
+https://exam-coach-ai-beta.vercel.app/

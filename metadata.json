@@ -1,0 +1,8 @@
+{
+  "name": "Personalized Exam Coach",
+  "description": "A comprehensive exam preparation system featuring syllabus management, AI-driven explanations, practice quizzes, and an AI coach for students.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
